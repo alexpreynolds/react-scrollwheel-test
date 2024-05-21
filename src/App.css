@@ -1,0 +1,26 @@
+html, body
+{
+  -ms-content-zooming: none;
+  touch-action: none;
+  content-zooming: none;
+  overflow-y: hidden; // hide vertical
+  overflow-x: hidden; 
+  overflow-y: none; // hide vertical
+  overflow-x: none; 
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1.card-title {
+  font-size: 2em;
+}
+
+.card {
+  padding: 1em;
+  font-size: 2em;
+}
